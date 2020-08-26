@@ -1,5 +1,13 @@
+-------------1------------------------
 git init
 git add .
 git commit -m "buss-common commit"
 git remote add origin https://github.com/jimmynumber/buss-common.git
+git push -u origin master
+
+-----------------2----------------------------------------
+git clone https://github.com/jimmynumber/api.git
+cd api
+git add .
+git commit  -m "log"
 git push -u origin master
